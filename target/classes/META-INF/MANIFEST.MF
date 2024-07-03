@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1720042337617
+Build-Jdk: 19.0.1
+Built-By: oscar
+Bundle-Activator: com.example.Activator
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: area-calculator-bundle OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: area-calculator-bundle Bundle
+Bundle-SymbolicName: area-calculator-bundle
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.example;version="1.0.0.SNAPSHOT";uses:="org.osgi.fra
+ mework"
+Export-Service: com.example.AreaCalculator;osgi.service.blueprint.compna
+ me=areaCalculator
+Import-Package: org.osgi.framework;version="[1.9,2)",org.osgi.service.bl
+ ueprint;version="[1.0.0,2.0.0)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
